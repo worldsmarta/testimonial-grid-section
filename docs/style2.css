@@ -1,0 +1,25 @@
+.mainbox{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+}
+
+
+.rbox{
+    height: 650px;
+}
+
+@media screen and (max-width:1200px) {
+    
+    .mainbox{
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .mainbox{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+}
